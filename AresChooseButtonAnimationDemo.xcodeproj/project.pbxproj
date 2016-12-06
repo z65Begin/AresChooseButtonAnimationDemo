@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841B77981DF65F5C00E879EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B77971DF65F5C00E879EF /* main.m */; };
+		841B779B1DF65F5C00E879EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B779A1DF65F5C00E879EF /* AppDelegate.m */; };
+		841B77A11DF65F5C00E879EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841B779F1DF65F5C00E879EF /* Main.storyboard */; };
+		841B77A41DF65F5C00E879EF /* AresChooseButtonAnimationDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 841B77A21DF65F5C00E879EF /* AresChooseButtonAnimationDemo.xcdatamodeld */; };
+		841B77A61DF65F5C00E879EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841B77A51DF65F5C00E879EF /* Assets.xcassets */; };
+		841B77A91DF65F5C00E879EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841B77A71DF65F5C00E879EF /* LaunchScreen.storyboard */; };
+		841B77B41DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B77B31DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests.m */; };
+		841B77BF1DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B77BE1DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests.m */; };
+		841B77CF1DF660A000E879EF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B77CE1DF660A000E879EF /* HomeViewController.m */; };
+		841B77D21DF660AD00E879EF /* LoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B77D11DF660AD00E879EF /* LoveViewController.m */; };
+		841B77D61DF6614500E879EF /* HomeBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B77D51DF6614500E879EF /* HomeBean.m */; };
+		841B77DA1DF661B300E879EF /* Path_NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B77D91DF661B300E879EF /* Path_NSObject.m */; };
+		841B77DE1DF665BF00E879EF /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B77DD1DF665BF00E879EF /* HomeCollectionViewCell.m */; };
+		841B77E11DF68A9200E879EF /* XLPlainFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B77E01DF68A9200E879EF /* XLPlainFlowLayout.m */; };
+		841B77E41DF68C1C00E879EF /* ReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B77E31DF68C1C00E879EF /* ReusableView.m */; };
+		841B77E81DF69BBB00E879EF /* LoveCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B77E61DF69BBB00E879EF /* LoveCollectionViewCell.m */; };
+		841B77E91DF69BBB00E879EF /* LoveCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841B77E71DF69BBB00E879EF /* LoveCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841B77B01DF65F5C00E879EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841B778B1DF65F5C00E879EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841B77921DF65F5C00E879EF;
+			remoteInfo = AresChooseButtonAnimationDemo;
+		};
+		841B77BB1DF65F5C00E879EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841B778B1DF65F5C00E879EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841B77921DF65F5C00E879EF;
+			remoteInfo = AresChooseButtonAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		841B77931DF65F5C00E879EF /* AresChooseButtonAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AresChooseButtonAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841B77971DF65F5C00E879EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841B77991DF65F5C00E879EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841B779A1DF65F5C00E879EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841B77A01DF65F5C00E879EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841B77A31DF65F5C00E879EF /* AresChooseButtonAnimationDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AresChooseButtonAnimationDemo.xcdatamodel; sourceTree = "<group>"; };
+		841B77A51DF65F5C00E879EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841B77A81DF65F5C00E879EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841B77AA1DF65F5C00E879EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841B77AF1DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AresChooseButtonAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841B77B31DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AresChooseButtonAnimationDemoTests.m; sourceTree = "<group>"; };
+		841B77B51DF65F5C00E879EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841B77BA1DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AresChooseButtonAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841B77BE1DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AresChooseButtonAnimationDemoUITests.m; sourceTree = "<group>"; };
+		841B77C01DF65F5C00E879EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841B77CD1DF660A000E879EF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		841B77CE1DF660A000E879EF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		841B77D01DF660AD00E879EF /* LoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoveViewController.h; sourceTree = "<group>"; };
+		841B77D11DF660AD00E879EF /* LoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoveViewController.m; sourceTree = "<group>"; };
+		841B77D41DF6614500E879EF /* HomeBean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeBean.h; sourceTree = "<group>"; };
+		841B77D51DF6614500E879EF /* HomeBean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeBean.m; sourceTree = "<group>"; };
+		841B77D81DF661B300E879EF /* Path_NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path_NSObject.h; sourceTree = "<group>"; };
+		841B77D91DF661B300E879EF /* Path_NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Path_NSObject.m; sourceTree = "<group>"; };
+		841B77DC1DF665BF00E879EF /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		841B77DD1DF665BF00E879EF /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		841B77DF1DF68A9200E879EF /* XLPlainFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPlainFlowLayout.h; sourceTree = "<group>"; };
+		841B77E01DF68A9200E879EF /* XLPlainFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPlainFlowLayout.m; sourceTree = "<group>"; };
+		841B77E21DF68C1C00E879EF /* ReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReusableView.h; sourceTree = "<group>"; };
+		841B77E31DF68C1C00E879EF /* ReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReusableView.m; sourceTree = "<group>"; };
+		841B77E51DF69BBB00E879EF /* LoveCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoveCollectionViewCell.h; sourceTree = "<group>"; };
+		841B77E61DF69BBB00E879EF /* LoveCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoveCollectionViewCell.m; sourceTree = "<group>"; };
+		841B77E71DF69BBB00E879EF /* LoveCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoveCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841B77901DF65F5C00E879EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841B77AC1DF65F5C00E879EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841B77B71DF65F5C00E879EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841B778A1DF65F5C00E879EF = {
+			isa = PBXGroup;
+			children = (
+				841B77951DF65F5C00E879EF /* AresChooseButtonAnimationDemo */,
+				841B77B21DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests */,
+				841B77BD1DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests */,
+				841B77941DF65F5C00E879EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841B77941DF65F5C00E879EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841B77931DF65F5C00E879EF /* AresChooseButtonAnimationDemo.app */,
+				841B77AF1DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests.xctest */,
+				841B77BA1DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841B77951DF65F5C00E879EF /* AresChooseButtonAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				841B77DB1DF665A500E879EF /* View */,
+				841B77D71DF6617B00E879EF /* Tool */,
+				841B77D31DF6612A00E879EF /* Model */,
+				841B77991DF65F5C00E879EF /* AppDelegate.h */,
+				841B779A1DF65F5C00E879EF /* AppDelegate.m */,
+				841B77CC1DF6608A00E879EF /* Controller */,
+				841B779F1DF65F5C00E879EF /* Main.storyboard */,
+				841B77A51DF65F5C00E879EF /* Assets.xcassets */,
+				841B77A71DF65F5C00E879EF /* LaunchScreen.storyboard */,
+				841B77AA1DF65F5C00E879EF /* Info.plist */,
+				841B77A21DF65F5C00E879EF /* AresChooseButtonAnimationDemo.xcdatamodeld */,
+				841B77961DF65F5C00E879EF /* Supporting Files */,
+			);
+			path = AresChooseButtonAnimationDemo;
+			sourceTree = "<group>";
+		};
+		841B77961DF65F5C00E879EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841B77971DF65F5C00E879EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841B77B21DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				841B77B31DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests.m */,
+				841B77B51DF65F5C00E879EF /* Info.plist */,
+			);
+			path = AresChooseButtonAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		841B77BD1DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				841B77BE1DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests.m */,
+				841B77C01DF65F5C00E879EF /* Info.plist */,
+			);
+			path = AresChooseButtonAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		841B77CC1DF6608A00E879EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				841B77CD1DF660A000E879EF /* HomeViewController.h */,
+				841B77CE1DF660A000E879EF /* HomeViewController.m */,
+				841B77D01DF660AD00E879EF /* LoveViewController.h */,
+				841B77D11DF660AD00E879EF /* LoveViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		841B77D31DF6612A00E879EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				841B77D41DF6614500E879EF /* HomeBean.h */,
+				841B77D51DF6614500E879EF /* HomeBean.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		841B77D71DF6617B00E879EF /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				841B77DF1DF68A9200E879EF /* XLPlainFlowLayout.h */,
+				841B77E01DF68A9200E879EF /* XLPlainFlowLayout.m */,
+				841B77E21DF68C1C00E879EF /* ReusableView.h */,
+				841B77E31DF68C1C00E879EF /* ReusableView.m */,
+				841B77D81DF661B300E879EF /* Path_NSObject.h */,
+				841B77D91DF661B300E879EF /* Path_NSObject.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		841B77DB1DF665A500E879EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				841B77DC1DF665BF00E879EF /* HomeCollectionViewCell.h */,
+				841B77DD1DF665BF00E879EF /* HomeCollectionViewCell.m */,
+				841B77E51DF69BBB00E879EF /* LoveCollectionViewCell.h */,
+				841B77E61DF69BBB00E879EF /* LoveCollectionViewCell.m */,
+				841B77E71DF69BBB00E879EF /* LoveCollectionViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841B77921DF65F5C00E879EF /* AresChooseButtonAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841B77C31DF65F5C00E879EF /* Build configuration list for PBXNativeTarget "AresChooseButtonAnimationDemo" */;
+			buildPhases = (
+				841B778F1DF65F5C00E879EF /* Sources */,
+				841B77901DF65F5C00E879EF /* Frameworks */,
+				841B77911DF65F5C00E879EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AresChooseButtonAnimationDemo;
+			productName = AresChooseButtonAnimationDemo;
+			productReference = 841B77931DF65F5C00E879EF /* AresChooseButtonAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841B77AE1DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841B77C61DF65F5C00E879EF /* Build configuration list for PBXNativeTarget "AresChooseButtonAnimationDemoTests" */;
+			buildPhases = (
+				841B77AB1DF65F5C00E879EF /* Sources */,
+				841B77AC1DF65F5C00E879EF /* Frameworks */,
+				841B77AD1DF65F5C00E879EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841B77B11DF65F5C00E879EF /* PBXTargetDependency */,
+			);
+			name = AresChooseButtonAnimationDemoTests;
+			productName = AresChooseButtonAnimationDemoTests;
+			productReference = 841B77AF1DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		841B77B91DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841B77C91DF65F5C00E879EF /* Build configuration list for PBXNativeTarget "AresChooseButtonAnimationDemoUITests" */;
+			buildPhases = (
+				841B77B61DF65F5C00E879EF /* Sources */,
+				841B77B71DF65F5C00E879EF /* Frameworks */,
+				841B77B81DF65F5C00E879EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841B77BC1DF65F5C00E879EF /* PBXTargetDependency */,
+			);
+			name = AresChooseButtonAnimationDemoUITests;
+			productName = AresChooseButtonAnimationDemoUITests;
+			productReference = 841B77BA1DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841B778B1DF65F5C00E879EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AresBegin;
+				TargetAttributes = {
+					841B77921DF65F5C00E879EF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					841B77AE1DF65F5C00E879EF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 841B77921DF65F5C00E879EF;
+					};
+					841B77B91DF65F5C00E879EF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 841B77921DF65F5C00E879EF;
+					};
+				};
+			};
+			buildConfigurationList = 841B778E1DF65F5C00E879EF /* Build configuration list for PBXProject "AresChooseButtonAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841B778A1DF65F5C00E879EF;
+			productRefGroup = 841B77941DF65F5C00E879EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841B77921DF65F5C00E879EF /* AresChooseButtonAnimationDemo */,
+				841B77AE1DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests */,
+				841B77B91DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841B77911DF65F5C00E879EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841B77E91DF69BBB00E879EF /* LoveCollectionViewCell.xib in Resources */,
+				841B77A91DF65F5C00E879EF /* LaunchScreen.storyboard in Resources */,
+				841B77A61DF65F5C00E879EF /* Assets.xcassets in Resources */,
+				841B77A11DF65F5C00E879EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841B77AD1DF65F5C00E879EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841B77B81DF65F5C00E879EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841B778F1DF65F5C00E879EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841B779B1DF65F5C00E879EF /* AppDelegate.m in Sources */,
+				841B77D21DF660AD00E879EF /* LoveViewController.m in Sources */,
+				841B77981DF65F5C00E879EF /* main.m in Sources */,
+				841B77DE1DF665BF00E879EF /* HomeCollectionViewCell.m in Sources */,
+				841B77CF1DF660A000E879EF /* HomeViewController.m in Sources */,
+				841B77D61DF6614500E879EF /* HomeBean.m in Sources */,
+				841B77DA1DF661B300E879EF /* Path_NSObject.m in Sources */,
+				841B77E11DF68A9200E879EF /* XLPlainFlowLayout.m in Sources */,
+				841B77A41DF65F5C00E879EF /* AresChooseButtonAnimationDemo.xcdatamodeld in Sources */,
+				841B77E81DF69BBB00E879EF /* LoveCollectionViewCell.m in Sources */,
+				841B77E41DF68C1C00E879EF /* ReusableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841B77AB1DF65F5C00E879EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841B77B41DF65F5C00E879EF /* AresChooseButtonAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841B77B61DF65F5C00E879EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841B77BF1DF65F5C00E879EF /* AresChooseButtonAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841B77B11DF65F5C00E879EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841B77921DF65F5C00E879EF /* AresChooseButtonAnimationDemo */;
+			targetProxy = 841B77B01DF65F5C00E879EF /* PBXContainerItemProxy */;
+		};
+		841B77BC1DF65F5C00E879EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841B77921DF65F5C00E879EF /* AresChooseButtonAnimationDemo */;
+			targetProxy = 841B77BB1DF65F5C00E879EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841B779F1DF65F5C00E879EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841B77A01DF65F5C00E879EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841B77A71DF65F5C00E879EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841B77A81DF65F5C00E879EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841B77C11DF65F5C00E879EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		841B77C21DF65F5C00E879EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841B77C41DF65F5C00E879EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AresChooseButtonAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresChooseButtonAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		841B77C51DF65F5C00E879EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AresChooseButtonAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresChooseButtonAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		841B77C71DF65F5C00E879EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AresChooseButtonAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresChooseButtonAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AresChooseButtonAnimationDemo.app/AresChooseButtonAnimationDemo";
+			};
+			name = Debug;
+		};
+		841B77C81DF65F5C00E879EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AresChooseButtonAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresChooseButtonAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AresChooseButtonAnimationDemo.app/AresChooseButtonAnimationDemo";
+			};
+			name = Release;
+		};
+		841B77CA1DF65F5C00E879EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AresChooseButtonAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresChooseButtonAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AresChooseButtonAnimationDemo;
+			};
+			name = Debug;
+		};
+		841B77CB1DF65F5C00E879EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AresChooseButtonAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HIBS.AresChooseButtonAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AresChooseButtonAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841B778E1DF65F5C00E879EF /* Build configuration list for PBXProject "AresChooseButtonAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841B77C11DF65F5C00E879EF /* Debug */,
+				841B77C21DF65F5C00E879EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841B77C31DF65F5C00E879EF /* Build configuration list for PBXNativeTarget "AresChooseButtonAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841B77C41DF65F5C00E879EF /* Debug */,
+				841B77C51DF65F5C00E879EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		841B77C61DF65F5C00E879EF /* Build configuration list for PBXNativeTarget "AresChooseButtonAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841B77C71DF65F5C00E879EF /* Debug */,
+				841B77C81DF65F5C00E879EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		841B77C91DF65F5C00E879EF /* Build configuration list for PBXNativeTarget "AresChooseButtonAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841B77CA1DF65F5C00E879EF /* Debug */,
+				841B77CB1DF65F5C00E879EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		841B77A21DF65F5C00E879EF /* AresChooseButtonAnimationDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				841B77A31DF65F5C00E879EF /* AresChooseButtonAnimationDemo.xcdatamodel */,
+			);
+			currentVersion = 841B77A31DF65F5C00E879EF /* AresChooseButtonAnimationDemo.xcdatamodel */;
+			path = AresChooseButtonAnimationDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 841B778B1DF65F5C00E879EF /* Project object */;
+}
